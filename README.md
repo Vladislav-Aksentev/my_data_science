@@ -1,7 +1,4 @@
-# my_data_science
-my_yandex_projects
-
-# Проекты яндекс:
+# Проекты, выполненные мной в ходе обучения в яндекс.практикуме по специальности "Data Science":
 ## Project_1_Research of the reliability of borrowers
 ### Исследование надёжности заёмщиков
 Используемые библиотеки:
