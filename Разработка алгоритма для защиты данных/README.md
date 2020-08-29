@@ -12,8 +12,8 @@
 
 ### Библиотеки, используемые в проекте:
 
-pandas,
-seaborn,
-numpy,
-sklearn.linear_model.LinearRegression
-sklearn.model_selection.train_test_split
+pandas,  
+seaborn,  
+numpy,  
+sklearn.linear_model.LinearRegression,  
+sklearn.model_selection.train_test_split  
