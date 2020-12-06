@@ -4,7 +4,7 @@
 
 ### Общий вывод:
 
-Были изучены данные, проведена проверка эффективности обогощения по формуле. Проанализированы признаки, отсутсвующие в тестовой выборке. Проанализированы изменения концентраций металлов на этапах очистки. Проанализиролваны размеры гранул на обучающей им тестовой выборке, различия не большие, поэтому они не должны влиять на оценку моделей. Проанализированы суммарные концентрации веществ на разных стадиях, выявлены наличия выбросов(нулевых значений), которые вероятно появились из-за сбоев при получении данных. Написаны функции для получения метрики sMAPE, на основании которой была подобрана наиболее подходящяя модель - случайный лес(model_rfr_rougher_best, model_rfr_final_best). На тренировочной выборке отклонения получились 6.7% и 10%, что не сильно отличается от константной модели по меиане(7.6% и 10.1%). Итоговое симметричное среднее абсолютное процентное отклонение модели на тестовой выборке составило примерно 7.2%. Прототип был подготовлен.
+Были изучены данные, проведена проверка эффективности обогощения по формуле. Проанализированы признаки, отсутсвующие в тестовой выборке. Проанализированы изменения концентраций металлов на этапах очистки. Проанализиролваны размеры гранул на обучающей им тестовой выборке, различия не большие, поэтому они не должны влиять на оценку моделей. Проанализированы суммарные концентрации веществ на разных стадиях, выявлены наличия выбросов(нулевых значений), которые вероятно появились из-за сбоев при получении данных. Написаны функции для получения метрики sMAPE, на основании которой была подобрана наиболее подходящяя модель - случайный лес(model_rfr_rougher_best, model_rfr_final_best). На тренировочной выборке отклонения получились 6.7% и 10%, что не сильно отличается от константной модели по меиане(7.6% и 10.1%). Итоговое симметричное среднее абсолютное процентное отклонение модели на тестовой выборке составило примерно 7.2%. Прототип был подготовлен.  
 
 ### Статус проекта:
 
@@ -12,22 +12,22 @@
 
 ### Библиотеки, используемые в проекте:
 
-pandas
-numpy
+pandas  
+numpy  
 
-sklearn.model_selection.train_test_split
-sklearn.metrics.mean_squared_error
-sklearn.preprocessing.OneHotEncoder
-sklearn.preprocessing.OrdinalEncoder
-sklearn.preprocessing.StandardScaler
-sklearn.linear_model.LinearRegression
-sklearn.metrics.make_scorer
-sklearn.model_selection.GridSearchCV
+sklearn.model_selection.train_test_split  
+sklearn.metrics.mean_squared_error  
+sklearn.preprocessing.OneHotEncoder  
+sklearn.preprocessing.OrdinalEncoder  
+sklearn.preprocessing.StandardScaler  
+sklearn.linear_model.LinearRegression  
+sklearn.metrics.make_scorer  
+sklearn.model_selection.GridSearchCV  
 
-lightgbm.LGBMRegressor
+lightgbm.LGBMRegressor  
 
-xgboostxgb
+xgboostxgb  
 
-catboost.CatBoostRegressor
-catboost.Pool
-catboost.cv
+catboost.CatBoostRegressor  
+catboost.Pool  
+catboost.cv  
