@@ -51,7 +51,7 @@ sklearn.model_selection.GridSearchCV
 
 lightgbm.LGBMRegressor  
 
-xgboostxgb  
+xgboost  
 
 catboost.CatBoostRegressor  
 catboost.Pool  
