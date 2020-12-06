@@ -1,7 +1,7 @@
 # Проекты, выполненные мной в ходе обучения в Яндекс.практикуме по специальности "Data Science":
 
 ### Стек:  
-pandas, pymystem3, numpy, scipy, matplotlib, sklearn, seaborn
+pandas, pymystem3, numpy, scipy, matplotlib, sklearn, catboost, lightgbm, xgbboost, seaborn, matplotlib, statsmodels
 
 ## [Проект 1. Исследование надёжности заёмщиков.](https://github.com/Vladislav-Aksentev/my_data_science/tree/master/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%201%20%D0%98%D1%81%D1%81%D0%BB%D0%B5%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5%20%D0%BD%D0%B0%D0%B4%D1%91%D0%B6%D0%BD%D0%BE%D1%81%D1%82%D0%B8%20%D0%B7%D0%B0%D1%91%D0%BC%D1%89%D0%B8%D0%BA%D0%BE%D0%B2)
 Задача - узнать, оказывает ли влияние семейное положение клиента и наличие детей на просрочки и выплату кредитов?
@@ -40,6 +40,6 @@ pandas, pymystem3, numpy, scipy, matplotlib, sklearn, seaborn
 ## [Проект 10. Определение стоимости автомобиля.](https://github.com/Vladislav-Aksentev/my_data_science/tree/master/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%2010%20%D0%9E%D0%BF%D1%80%D0%B5%D0%B4%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5%20%D1%81%D1%82%D0%BE%D0%B8%D0%BC%D0%BE%D1%81%D1%82%D0%B8%20%D0%B0%D0%B2%D1%82%D0%BE%D0%BC%D0%BE%D0%B1%D0%B8%D0%BB%D1%8F)
 Задача - разработать модель с наилучшим балансом обучния(время и метрика RMSE) и предсказания.
 
-## [Проект 11. Предсказания заказов в такси на следующий час(времянные ряды).]()
+## [Проект 11. Предсказания заказов в такси на следующий час(времянные ряды).](https://github.com/Vladislav-Aksentev/my_data_science/blob/master/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%2011%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2%20%D0%B2%20%D1%82%D0%B0%D0%BA%D1%81%D0%B8%20%D0%BD%D0%B0%20%D1%81%D0%BB%D0%B5%D0%B4%D1%83%D1%8E%D1%89%D0%B8%D0%B9%20%D1%87%D0%B0%D1%81(%D0%B2%D1%80%D0%B5%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%80%D1%8F%D0%B4%D1%8B)/%D0%9F%D1%80%D0%BE%D0%B5%D0%BA%D1%82%2011%20%D0%9F%D1%80%D0%B5%D0%B4%D1%81%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8%D1%8F%20%D0%B7%D0%B0%D0%BA%D0%B0%D0%B7%D0%BE%D0%B2%20%D0%B2%20%D1%82%D0%B0%D0%BA%D1%81%D0%B8%20%D0%BD%D0%B0%20%D1%81%D0%BB%D0%B5%D0%B4%D1%83%D1%8E%D1%89%D0%B8%D0%B9%20%D1%87%D0%B0%D1%81(%D0%B2%D1%80%D0%B5%D0%BC%D1%8F%D0%BD%D0%BD%D1%8B%D0%B5%20%D1%80%D1%8F%D0%B4%D1%8B).ipynb)
 Задача - подготовка модели  для предсказания количества заказов в такси на следующий час с использованием времянных рядов.
 
